@@ -1,0 +1,30 @@
+.btn-yellow {
+  font: var(--font-btn-yellow);
+  color: var(--color-font-btn);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 191, 0, 1) 0%,
+    rgba(242, 165, 12, 1) 100%
+  );
+  cursor: pointer;
+}
+.btn-yellow:hover {
+  animation-name: pop-on-hover;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+@-webkit-keyframes pop-on-hover {
+  50% {
+    transform: scale(1.2);
+  }
+}
+@keyframes pop-on-hover {
+  50% {
+    transform: scale(1.2);
+  }
+}

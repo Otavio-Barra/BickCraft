@@ -1,0 +1,6 @@
+:root {
+  --font-nav: 500 1.13rem/1.777 "Poppins", sans-serif;
+  --font-title: 600 clamp(2.5rem, 5vw, 4rem) / 1.125 "Poppins", sans-serif;
+  --font-text: 400 clamp(1.3em, 2vw, 1.7rem) / 1.5 "Roboto", sans-serif;
+  --font-btn-yellow: 600 clamp(1.3em, 2vw, 1.7rem) / 1.125 "Poppins", sans-serif;
+}
